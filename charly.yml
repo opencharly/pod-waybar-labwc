@@ -1,7 +1,7 @@
 version: 2026.232.0520
 waybar-labwc:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             A bottom waybar status bar wired for the labwc desktop session, launched once labwc's Wayland socket is ready.
             Installs the waybar package and drops a labwc-specific launch wrapper
@@ -11,7 +11,7 @@ waybar-labwc:
             wayland-0 socket before exec'ing waybar so the bar attaches to the
             labwc compositor, not the pixelflux capture display.
         require:
-            - '@github.com/opencharly/pod-labwc:v2026.237.558'
+            - '@github.com/opencharly/pod-labwc:v2026.240.2106'
         distro:
             arch:
                 package:
